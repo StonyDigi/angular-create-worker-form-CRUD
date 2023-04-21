@@ -1,0 +1,23 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Job</th>
+        <th>Actions</th>
+    </tr>
+    <tr *ngFor="let p of this.data.people">
+        <td>{{p.name}}</td>
+        <td>{{p.age}}</td>
+        <td>{{p.job}}</td>
+        <td>
+            <button (click)="delete(p.id)">Delete</button>
+            &nbsp;
+            <button (click)="update(p.id)">Update</button>
+        </td>
+    </tr>
+</table>
+
+<a id="dwn" href="">Download json</a>
+<br/>
+<p>Import json</p>
+<a><input type="file" (change)="import($event)" /></a>

@@ -1,0 +1,16 @@
+<h1>Create worker</h1>
+
+<div (keypress)="keyPress($event)">
+    <label>Name</label>
+    <input type="text" [(ngModel)]="this.actualPerson.name"  />
+
+    <label>Job</label>
+    <input type="text" [(ngModel)]="this.actualPerson.job"  />
+
+    <label>Age</label>
+    <input type="number" [(ngModel)]="this.actualPerson.age"  />
+
+    <button (click)="add()">Save worker</button>
+</div>
+
+<p>&copy; 2023 Somossy László</p>

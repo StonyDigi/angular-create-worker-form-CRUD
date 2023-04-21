@@ -1,0 +1,47 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    background: black;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+label, input, button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    width: 800px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+button {
+    background: black;
+    color: beige;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    border: 2px solid white;
+    color: orange;
+    transition: ease-in-out 0.9s;
+}

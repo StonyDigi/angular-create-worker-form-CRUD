@@ -1,0 +1,57 @@
+table{  
+    margin-top: 20px;
+    width: 100%;
+    border: 5px solid;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+    
+}
+
+th {
+    background-color: beige;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: black;
+}
+
+input {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button {
+    background: black;
+    color: red;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid white;
+    color: orange;
+    transition: ease-in-out 0.9s;
+}
+
+button:nth-child(2) {
+    background: black;
+    color: yellow;
+    border: 2px solid;
+}
+
+button:hover {
+    border: 2px solid white;
+    color: orange;
+    transition: ease-in-out 0.9s;
+}

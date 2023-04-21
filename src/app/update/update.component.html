@@ -1,0 +1,14 @@
+<h1>Edit your worker</h1>
+
+<div (keypress)="keyPress($event)">
+    <label>Name</label>
+    <input type="text" [(ngModel)]="this.actualPerson.name"  />
+
+    <label>Job</label>
+    <input type="text" [(ngModel)]="this.actualPerson.job"  />
+
+    <label>Age</label>
+    <input type="number" [(ngModel)]="this.actualPerson.age"  />
+
+    <button (click)="save()">Save worker</button>
+</div>

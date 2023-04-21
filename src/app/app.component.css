@@ -1,0 +1,14 @@
+nav {
+   background: black; 
+}
+
+a {
+    color: white;
+    line-height: 40px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 0 10px;
+}

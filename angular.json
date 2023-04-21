@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "alkalom03-ismetles": {
+    "personApp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/alkalom03-ismetles",
+            "outputPath": "dist/person-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "alkalom03-ismetles:build:production"
+              "browserTarget": "personApp:build:production"
             },
             "development": {
-              "browserTarget": "alkalom03-ismetles:build:development"
+              "browserTarget": "personApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "alkalom03-ismetles:build"
+            "browserTarget": "personApp:build"
           }
         },
         "test": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "08f3a398-6726-48fd-834f-3c6cef4fd22b"
   }
 }
