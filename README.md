@@ -1,5 +1,8 @@
 # PersonApp
 
+check at this app at here in live : https://angular-create-worker-somossy-laszlo.netlify.app/
+
+
 03 alkalom - routing témakör
 
 localhost:4200/list - listComponent
